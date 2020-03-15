@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Viaoda Libre', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: url("images/Sports.png");
+}
+
+.container {
+	width: 900px;
+	margin: 20px auto;
+    box-shadow: -1px -1px 10px 1px;
+    background-color: black;
+}
+/*HEADER*/
+.header {
+	overflow: hidden;
+	padding: 10px;
+	background: black;
+}
+.header .headerLeft {
+	width: 300px;
+	float: left;
+}
+.header .headerLeft img {
+	width: 175px;
+	height: auto;
+}
+.header .headerRight {
+	width: 500px;
+	float: right;
+	height: 50px;
+}
+.header .headerRight li {
+	list-style: none;
+}
+.header .headerRight li a{
+	text-decoration: none;
+	color:white;
+	padding: 0px 15px;
+	line-height: 80px;
+	font-size: 22px;
+	float: right;
+	font-variant: small-caps;
+}
+.header .headerRight li a:hover {
+	border-bottom: 2px solid orange;
+}
+/*Slideshow*/
+.slideshow {
+	margin-top: 10px;
+}
+.slideshow img {
+  width: 100%;
+}
+/*NEWS*/
+.news {
+	overflow: hidden;
+	background:black;
+}
+.news img {
+    width: 410px;
+    height: auto;
+}
+.news .newsLeft {
+	width: 410px;
+	padding: 20px;
+	float: left;
+    position: relative;
+    margin-top: 5px;
+   
+}
+.news .newsLeft2 {
+	width: 410px;
+	padding:20px;
+	float: left;
+    position: relative;
+    margin-right:50px;
+    margin-top: 10px;
+}
+
+.news .newsRight {
+	width: 410px;
+	padding: 10px;
+	float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 8px; 
+} 
+/* makanan 1 */
+.news h1 {
+	position: absolute;
+	left: 30px;
+    top: 530px;
+    color: yellow;
+}
+.news p {
+	position: absolute;
+	left: 30px;
+	top: 545px;
+	font-size: 12px;
+    width: 300px;
+    color:#F5DEB3
+}
+.news a {
+	position: absolute;
+	left: 30px;
+	top: 620px;
+	font-size: 12px;
+    text-decoration: none;
+    color: #6B8E23
+}
+/* makanan 2 */
+.kata p{
+    position: absolute;
+	left: 20px;
+	top: 230px;
+	font-size: 12px;
+    width: 300px;
+    color:#F5DEB3
+}
+.kata a{
+    position: absolute;
+	left: 20px;
+	top: 265px;
+	font-size: 12px;
+    text-decoration: none; 
+    color: #6B8E23
+}
+.kata h1 {
+	position: absolute;
+	left: 15px;
+    top: 5%;
+    color: yellow;
+}
+
+/* makanan 3 */
+.kata2 p{
+    position: absolute;
+	left: 30px;
+	top: 280px;
+	font-size: 12px;
+    width: 300px;
+    color:#F5DEB3
+}
+.kata2 a{
+    position: absolute;
+	left: 30px;
+	top: 312px;
+	font-size: 12px;
+    text-decoration: none; 
+    color: #6B8E23
+}
+.kata2 h1 {
+	position: absolute;
+	left: 25px;
+    top: 5%;
+    color: yellow
+}
+/* Information */
+.information {
+	overflow: hidden;
+	padding: 20px 100px;
+	background: black;
+	color: #F5DEB3;
+    margin-bottom: 10px;
+}
+.information .informationLeft {
+	width: 400px;
+	margin-left: 50px;
+    float: right;
+    
+}
+
+.information .informationRight {
+    width: 200px;
+    float: left;
+   
+     
+}
+.information .informationRight img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+/*FOOTER*/
+.footer {
+	background:#F5DEB3;
+	text-align: center;
+	padding: 30px;
+}
+.footer p {
+	font-size: 12px;
+    color: red;
+    top: 1610px;
+    margin-left: 950px;
+}
+
